@@ -1,0 +1,2 @@
+I still have quest that how to turn few commits into one commit.
+I always commit too often to leave a coherent git history.

@@ -1,5 +1,5 @@
 # What does this piece of code do?
-# Answer: 
+# Answer: generate a prime number under 100
 
 # Import libraries
 # randint allows drawing a random number, 
@@ -11,12 +11,12 @@ from random import randint
 from math import ceil
 
 p=False
-while p==False:
+while p==False:                         #if the n fail, try another
     p=True
-    n = randint(1,100)
-    u = ceil(n**(0.5))
-    for i in range(2,u+1):
-        if n%i == 0:
+    n = randint(1,100)          #generate a number under 100
+    u = ceil(n**(0.5))          #the biggest divisor of n could be
+    for i in range(2,u+1):      #check all the divisor could be 
+        if n%i == 0:            #if there is a remainder equals to 0, then shows n is not a prime number         
             p=False
 
 

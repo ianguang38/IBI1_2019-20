@@ -1,0 +1,15 @@
+The general logical to go through all the posibility is 2 choices and 3 operations.
+
+2 choices:
+1. select a number from four
+2. select a second from three remained
+
+3 operations:
+1. combine two number that are not selected with the first operation
+2. combine the first result with the second operation
+3. combine the send result with the third operation
+
+The operation above means a set of 6 operation, including +--*//.
+
+The worst situation is that all the choices and operations have to be done.
+That means 4*3*6*6*6=2592.

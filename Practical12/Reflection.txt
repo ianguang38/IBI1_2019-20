@@ -1,0 +1,9 @@
+The practical is not easy for me.
+
+I revised and learned more about numpy and matplotlib.
+
+There must be something wrong with my code. The infectious disease spreading at a lower speed compared to the sample provided.
+I tried hard to some some problems, but could not deal with all.
+
+In the last task, I design a recovery wall out of the 100*100 matrix to avoid the edge problem.
+I think it is a effecient solution.
